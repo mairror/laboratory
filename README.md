@@ -1,2 +1,3 @@
-# laboratory
+# Laboratory
+
 Data analysis and processing
