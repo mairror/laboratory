@@ -42,7 +42,7 @@ def insert_as_nparray(df, image, path_base):
     It doesn't return anything
     """
     image_path = f"{image.split('/')[-2]}/{image.split('/')[-1]}"
-    df["face_nparray"].iloc[int(df[df["full_path"] == image_path].index[0])] = get_detected_face(f"{path_base}{image_path}", required_size=(40, 40))
+    df["face_nparray"].iloc[int(df[df["full_path"] == image_path].index[0])] = get_detected_face(f"{path_base}{image_path}", required_size=(48, 48))
 
     
 

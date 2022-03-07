@@ -132,3 +132,5 @@ dmypy.json
 analysis/logs/
 !analysis/**/face_nparray.csv
 analysis/**/*.csv
+*.h5
+*Copy*
