@@ -126,3 +126,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Dataset
+**/wiki_crop*/**
+analysis/logs/
+!analysis/**/face_nparray.csv
+analysis/**/*.csv
