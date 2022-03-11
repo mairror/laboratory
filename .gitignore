@@ -130,5 +130,6 @@ dmypy.json
 # Dataset
 **/wiki_crop*/**
 analysis/logs/
-!analysis/**/face_nparray.csv
 analysis/**/*.csv
+**/**/*.jpg
+**/**/checkpoints/
